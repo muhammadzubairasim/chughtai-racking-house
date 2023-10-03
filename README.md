@@ -1,2 +1,2 @@
-# chughtai-rackinng-house
-quotation and invoce managment system for fabrication services based company 
+# chughtai-racking-house
+quotation and invoice managment system for fabrication services based company 
