@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.HoverEffect::before {
+  content: "";
+  background-color: #00088c;
+  border-radius: 45%;
+  height: 4px;
+  width: 100%;
+  position: absolute;
+  bottom: -4px;
+  transition: transform 200ms ease-in;
+  transform: scaleX(0);
+  transform-origin: right;
+}
+.HoverEffect:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.basicButton {
+  @apply bg-gradient-to-r from-brand-secondaryLV to-brand-secondaryLV/60 text-white text-sm p-1 rounded-md  hover:from-brand-secondaryLV/80 hover:to-brand-secondaryLV/60 transition-all duration-300;
+}
+
+/*----------------------------------------------------------------*/
+/*toggle button */
