@@ -20,8 +20,15 @@
 }
 
 .basicButton {
-  @apply bg-gradient-to-r from-brand-secondaryLV to-brand-secondaryLV/60 text-white text-sm p-1 rounded-md  hover:from-brand-secondaryLV/80 hover:to-brand-secondaryLV/60 transition-all duration-300;
+  @apply bg-gradient-to-r from-brand-secondaryLV to-brand-secondaryLV/70 text-white text-sm p-1 lg:px-3 lg:py-1 rounded-md  hover:from-brand-secondaryLV/90 hover:to-brand-secondaryLV/70 transition-all duration-300;
 }
 
-/*----------------------------------------------------------------*/
-/*toggle button */
+.navMenuIconHover {
+  @apply bg-gray-100/90  p-1 w-8 h-8 text-gray-600 rounded-md group-hover/rack:bg-white group-hover/rack:text-brand-secondaryLV;
+}
+.navMenuIconWraperHover {
+  @apply flex justify-start items-center gap-2 px-3 py-1 rounded-md hover:bg-gray-100/90;
+}
+.navMenuHover {
+  @apply invisible absolute -translate-y-3   p-2 border rounded-md transition-all ease-in duration-200;
+}

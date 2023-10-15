@@ -9,7 +9,7 @@ export default {
       colors: {
         // LV light Variant
         // DV Dark Variant
-        'bg-primaryLV': "f7f7f7",
+        'primaryLV': "f7f7f7",
         'brand-primaryLV': "#ff7a00",
         'brand-secondaryLV': "#00088c",
 
